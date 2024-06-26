@@ -48,8 +48,6 @@ function checkPasswordStrength(formData) {
     rectangle.classList.remove("very-weak", "weak", "medium", "strong")
   );
 
-  console.log(length);
-
   if (length <= 4) {
     rectangles[0].classList.add("very-weak");
     strength.textContent = "Very weak";
